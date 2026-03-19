@@ -9,7 +9,7 @@ from plot_dark_style import styles
 from streamlit import session_state as SSTT
 import time
 
-from pandasTraining import InvoiceData , limpiar_df
+from pandasAnylisis import InvoiceData , limpiar_df
 
 @st.cache_data
 def ReadCSV():
